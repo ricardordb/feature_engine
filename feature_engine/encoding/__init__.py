@@ -5,6 +5,7 @@ The module encoding includes classes to transform categorical variables into num
 from .count_frequency import CountFrequencyEncoder
 from .decision_tree import DecisionTreeEncoder
 from .mean_encoding import MeanEncoder
+from .median_encoding import MedianEncoder
 from .one_hot import OneHotEncoder
 from .ordinal import OrdinalEncoder
 from .probability_ratio import PRatioEncoder
@@ -16,6 +17,7 @@ __all__ = [
     "CountFrequencyEncoder",
     "DecisionTreeEncoder",
     "MeanEncoder",
+    "MedianEncoder",
     "OneHotEncoder",
     "OrdinalEncoder",
     "PRatioEncoder",
